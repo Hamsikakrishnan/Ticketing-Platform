@@ -1,10 +1,12 @@
-import Image from "next/image";
-import Nav from "./(components)/Nav";
+import TicketCard from "./(components)/TicketCard";
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <Nav />
+      <TicketCard />
+      <TicketCard />
+      <TicketCard />  
+      <h1>Home Sweet Home is it updating Yeah it is</h1>
+      
     </div>
   );
 }
