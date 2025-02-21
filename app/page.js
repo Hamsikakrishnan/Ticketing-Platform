@@ -1,12 +1,14 @@
 import TicketCard from "./(components)/TicketCard";
 export default function Home() {
   return (
-    <div>
-      <TicketCard />
-      <TicketCard />
-      <TicketCard />  
-      <h1>Home Sweet Home is it updating Yeah it is</h1>
-      
+    <div className="p-5 ">
+      <div className="lg:grid grid-cols-2 xl:grid-cols-4 gap-0">
+        <TicketCard />
+        <TicketCard />
+        <TicketCard /> 
+        <TicketCard /> 
+        <TicketCard />
+      </div>
     </div>
   );
 }
