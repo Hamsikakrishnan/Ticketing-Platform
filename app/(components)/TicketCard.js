@@ -5,6 +5,7 @@ import StatusDisplay from "./StatusDisplay";
 
 export default function TicketCard({ticket}) {
     return(
+        // Ticket card  
         <div className="flex flex-col bg-slate-900 hover:bg-slate-900 rounded-md shadow-lg p-3 m-3">
             <div className="flex items-center mb-3">
                 <PriorityDisplay priority={ticket.priority} />
